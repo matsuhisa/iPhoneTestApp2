@@ -22,6 +22,8 @@
 		B90B05C71938C8D3008750E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90B05A61938C8D2008750E3 /* UIKit.framework */; };
 		B90B05CF1938C8D3008750E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90B05CD1938C8D3008750E3 /* InfoPlist.strings */; };
 		B90B05D11938C8D3008750E3 /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B05D01938C8D3008750E3 /* test2Tests.m */; };
+		B90B05DC1938C9A1008750E3 /* aTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B05DB1938C9A1008750E3 /* aTableViewController.m */; };
+		B90B05DF1938CD42008750E3 /* bTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B05DE1938CD42008750E3 /* bTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		B90B05CC1938C8D3008750E3 /* test2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test2Tests-Info.plist"; sourceTree = "<group>"; };
 		B90B05CE1938C8D3008750E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B90B05D01938C8D3008750E3 /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		B90B05DA1938C9A1008750E3 /* aTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aTableViewController.h; sourceTree = "<group>"; };
+		B90B05DB1938C9A1008750E3 /* aTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aTableViewController.m; sourceTree = "<group>"; };
+		B90B05DD1938CD42008750E3 /* bTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bTableViewController.h; sourceTree = "<group>"; };
+		B90B05DE1938CD42008750E3 /* bTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				B90B05B11938C8D2008750E3 /* test2AppDelegate.h */,
 				B90B05B21938C8D2008750E3 /* test2AppDelegate.m */,
 				B90B05B41938C8D2008750E3 /* Main.storyboard */,
+				B90B05DD1938CD42008750E3 /* bTableViewController.h */,
+				B90B05DE1938CD42008750E3 /* bTableViewController.m */,
+				B90B05DA1938C9A1008750E3 /* aTableViewController.h */,
+				B90B05DB1938C9A1008750E3 /* aTableViewController.m */,
 				B90B05B71938C8D2008750E3 /* test2MasterViewController.h */,
 				B90B05B81938C8D2008750E3 /* test2MasterViewController.m */,
 				B90B05BA1938C8D2008750E3 /* test2DetailViewController.h */,
@@ -257,7 +267,9 @@
 			files = (
 				B90B05AF1938C8D2008750E3 /* main.m in Sources */,
 				B90B05B31938C8D2008750E3 /* test2AppDelegate.m in Sources */,
+				B90B05DF1938CD42008750E3 /* bTableViewController.m in Sources */,
 				B90B05BC1938C8D2008750E3 /* test2DetailViewController.m in Sources */,
+				B90B05DC1938C9A1008750E3 /* aTableViewController.m in Sources */,
 				B90B05B91938C8D2008750E3 /* test2MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
