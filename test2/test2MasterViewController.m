@@ -2,9 +2,6 @@
 //  test2MasterViewController.m
 //  test2
 //
-//  Created by 松久浩伸 on 2014/05/30.
-//  Copyright (c) 2014年 ___FULLUSERNAME___. All rights reserved.
-//
 
 #import "test2MasterViewController.h"
 
